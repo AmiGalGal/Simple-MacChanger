@@ -43,15 +43,15 @@ def is_valid(inputs):
 
 (inputs, args) =  userinput()
 if not(is_valid(inputs)):
-    print("Process Failed due to invalid desired address")
+    print("Process Failed due to invalid desired address Nigga!")
     exit()
 old = inter(inputs)
 if old == inputs.macAdd:
-    print("Process Failed, the desired address is already the existing mac address")
+    print("Process Failed, the desired address is already the existing mac address Nigga!")
     exit()
 change_macaddress(inputs)
 new = inter(inputs)
 if new == inputs.macAdd:
-    print("MacAddress changed to " + inputs.macAdd)
+    print("MacAddress changed to " + inputs.macAdd + " Nigga!")
 else:
-    print("Process Failed for unknown reasons")
+    print("Process Failed for unknown reasons Nigga!")
